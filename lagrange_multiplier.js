@@ -3,7 +3,7 @@ let speed = 0.02;
 let range = 2;
 
 function setup() {
-  createCanvas(800, 600, WEBGL); // Create a 3D canvas
+  createCanvas(windowWidth, windowHeight, WEBGL); // Create a 3D canvas
 }
 
 function draw() {
